@@ -5,6 +5,7 @@ import json
 
 database_path = os.environ["DATABASE_URL"]
 
+
 db = SQLAlchemy()
 
 """
